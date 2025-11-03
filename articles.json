@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "id": "ar1",
+      "lang": "ar",
+      "title": "\u0646\u0635\u064a\u062d\u0629 \u0639\u0645\u0644\u064a\u0629 \u0644\u0644\u0631\u0628\u062d \u0645\u0646 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a",
+      "content": "\u0646\u0635\u064a\u062d\u0629 \u0639\u0645\u0644\u064a\u0629: \u0627\u0628\u062f\u0623 \u0628\u062a\u062d\u062f\u064a\u062f \u0633\u0648\u0642 \u0635\u063a\u064a\u0631 \u0648\u0627\u062e\u062a\u0628\u0631 \u0623\u0641\u0643\u0627\u0631\u0643 \u0628\u0633\u0631\u0639\u0629.\n\n<a href=\"https://example.com/aff1?ref=sbrch89\">Affiliate Link</a>",
+      "date": "2025-11-03T07:17:04.676745"
+    },
+    {
+      "id": "en1",
+      "lang": "en",
+      "title": "Practical tip for making money online",
+      "content": "Start by validating a small niche and test ideas quickly.\n\n<a href=\"https://example.com/aff1?ref=sbrch89\">Affiliate Link</a>",
+      "date": "2025-11-03T07:17:04.676755"
+    },
+    {
+      "id": "fr1",
+      "lang": "fr",
+      "title": "Astuce pratique pour gagner de l'argent en ligne",
+      "content": "Commencez par un petit march\u00e9 et testez vos id\u00e9es rapidement.\n\n<a href=\"https://example.com/aff1?ref=sbrch89\">Affiliate Link</a>",
+      "date": "2025-11-03T07:17:04.676757"
+    }
+  ]
+}
