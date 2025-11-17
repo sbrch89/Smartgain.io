@@ -1,1 +1,37 @@
-
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Smartgain.io</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <header>
+    <div class="cover">
+      <img src="/static/images/cover.png" alt="cover" class="cover-img"/>
+      <div class="site-title">
+        <h1>Smartgain.io</h1>
+        <p class="tagline">الذكاء يصنع الأرباح تلقائيًا</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    {% for a in articles %}
+      {% if a.lang == "ar" %}
+        <article class="card" dir="rtl">
+      {% else %}
+        <article class="card">
+      {% endif %}
+          <h2><a href="/article/{{ a.id }}">{{ a.title }}</a></h2>
+          <p class="meta">{{ a.lang }} • {{ a.date.slice(0,10) }}</p>
+          <p>{{ a.content[:200] | safe }}... </p>
+          <p><a href="/article/{{ a.id }}">اقرأ المزيد</a></p>
+        </article>
+    {% else %}
+      <p>No articles yet.</p>
+    {% endfor %}
+  </main>
+  <footer>SmartGain.io</footer>
+</body>
+</html>
