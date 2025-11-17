@@ -1,1 +1,9 @@
-
+body { font-family: Arial, sans-serif; max-width:1000px; margin:20px auto; padding:0 10px; line-height:1.6; background:#fff; color:#222; }
+header .cover { display:flex; align-items:center; gap:16px; margin-bottom:18px; }
+.cover-img { width:220px; height:120px; object-fit:cover; border-radius:8px; }
+.site-title h1 { margin:0; font-size:1.6rem; }
+.tagline { margin:0; color:#666; }
+.card { border:1px solid #eee; padding:12px; margin-bottom:12px; border-radius:8px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); background:#fafafa; }
+.meta { color:#666; font-size:0.9em; }
+.content a { color: #0645ad; text-decoration: none; }
+body[dir='rtl'] { direction: rtl; text-align: right; }
